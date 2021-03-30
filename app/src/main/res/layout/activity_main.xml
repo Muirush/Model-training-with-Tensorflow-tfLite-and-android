@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="200dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:id="@+id/input"
+        android:inputType="numberDecimal"
+        android:hint="Enter Value of x"
+        android:textColorHint="@color/black"
+        android:textSize="21sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output"
+        android:layout_below="@+id/input"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="75dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="y = 2x -1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="64dp"
+
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded1"
+        app:backgroundTint="@android:color/holo_green_light"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="submit"
+        android:id="@+id/submit"
+        android:textSize="20sp"
+        android:layout_below="@id/input"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+
+        />
+
+
+
+</RelativeLayout>
